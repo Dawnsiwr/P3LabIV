@@ -8,7 +8,8 @@ namespace P3LabIV
 {
     public class Library
     {
-        private const string FILE_NAME = "books.txt";
+        private const string FILE_NAME = "../../../books.txt";
+        string PATH = Path.Combine(Environment.CurrentDirectory, FILE_NAME);
         private const int TITLE_NUMBER = 0;
         private const int AUTHOR_NUMBER = 1;
         private const int RACK_NUMBER = 2;
@@ -30,7 +31,7 @@ namespace P3LabIV
         {
             string[] bookInfo;
             string line;
-            System.IO.StreamReader file = new System.IO.StreamReader(FILE_NAME);
+            System.IO.StreamReader file = new System.IO.StreamReader(PATH);
             while ((line = file.ReadLine()) != null)
             {
                 bookInfo = line.Split(";").ToArray();
@@ -109,7 +110,7 @@ namespace P3LabIV
 
       public void SaveBooks()
         {
-            File.WriteAllText(FILE_NAME, string.Empty);
+            File.WriteAllText(PATH, string.Empty);
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 6; j++)
@@ -117,7 +118,7 @@ namespace P3LabIV
                     for (int k = 0; k < 10; k++)
                     {
                         using (System.IO.StreamWriter file =
-                             new System.IO.StreamWriter(FILE_NAME, true))
+                             new System.IO.StreamWriter(PATH, true))
                          {
                              file.WriteLine(books[i,j,k].TextFileExport());
                          }

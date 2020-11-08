@@ -23,7 +23,7 @@ namespace P3LabIV
                 valueError = false;
                 if (!int.TryParse(Console.ReadLine(), out value))
                 {
-                    Console.Write("Niepoprawna wartość");
+                    Console.Write("Niepoprawna wartość ");
                     valueError = true;
                     continue;
                 }
@@ -42,7 +42,7 @@ namespace P3LabIV
                 valueError = false;
                 if (!int.TryParse(Console.ReadLine(), out value))
                 {
-                    Console.Write("Niepoprawna wartość");
+                    Console.Write("Niepoprawna wartość ");
                     valueError = true;
                     continue;
                 }
