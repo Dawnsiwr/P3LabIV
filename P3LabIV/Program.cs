@@ -9,7 +9,7 @@ namespace P3LabIV
         static void Main(string[] args)
         {
             Library library = new Library();
-            
+            library.Run();
          
 
           

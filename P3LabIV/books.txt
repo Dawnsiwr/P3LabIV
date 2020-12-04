@@ -1,7 +1,7 @@
-Eragon;Christopher Paolini;0;0;0
+Zwiadowcy;John Flanagan;0;0;0
 Opowieści z Meekhańskiego Pogranicza;Robert Wegner;0;0;1
 Koralina;Neil Gaiman;0;0;2
-Hobbit;J.R.R. Tolkien;0;0;3
+Władca Pierścieni Powrót Króla;J.R.R. Tolkien;0;0;3
 Conan;Robert E. Howard;0;0;4
 Kłamstwa Locke’a Lamory;Scott Lynch;0;0;5
 Nie kończąca się historia;Michael Ende;0;0;6
@@ -58,7 +58,7 @@ Nie kończąca się historia;Michael Ende;0;5;6
 Księga Całości;Feliks Kres;0;5;7
 Mgły Avalonu;Marion Zimmer Bradley;0;5;8
 Królowie Dary;Ken Liu;0;5;9
-Silmarillion;J.R.R. Tolkien;1;0;0
+Zwiadowcy;John Flanagan;1;0;0
 Opowieści z Meekhańskiego Pogranicza;Robert Wegner;1;0;1
 Koralina;Neil Gaiman;1;0;2
 Hobbit;J.R.R. Tolkien;1;0;3
@@ -168,7 +168,7 @@ Nie kończąca się historia;Michael Ende;2;4;6
 Księga Całości;Feliks Kres;2;4;7
 Mgły Avalonu;Marion Zimmer Bradley;2;4;8
 Królowie Dary;Ken Liu;2;4;9
-Silmarillion;J.R.R. Tolkien;2;5;0
+Zwiadowcy;John Flanagan;2;5;0
 Opowieści z Meekhańskiego Pogranicza;Robert Wegner;2;5;1
 Koralina;Neil Gaiman;2;5;2
 Hobbit;J.R.R. Tolkien;2;5;3
